@@ -10,7 +10,7 @@ object App {
     val sc = spark.sparkContext
 
     // Lectura de tabla
-    val df = spark.sql("SELECT * FROM ...")
+    val df = spark.read.csv("...")
 
 
 
